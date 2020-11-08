@@ -47,11 +47,7 @@ body{
 
 }
 
-span.twoP{
-  color: #fff;
-  /* line-height: 10.5rem; */
-  font-size: 15rem;
-}
+
 .day{
   line-height: 10.5rem;
   font-size: 10rem;
