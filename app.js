@@ -30,7 +30,9 @@ setInterval(RefreshingTime, 1000)
 
 // ! 3:
 /* Obtendo o tamanho da janela(para o responsivo) */
-
+window.addEventListener('DOMContentLoaded', function() {
+   sizeOfThings()
+});
 window.addEventListener('resize', function() {
    sizeOfThings()
 });
