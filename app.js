@@ -40,7 +40,7 @@ window.addEventListener('resize', function() {
 function sizeOfThings() {
    let windowWidth = window.innerWidth;
    // console.clear()
-   console.log(windowWidth);
+   // console.log(windowWidth);
    changeBg(windowWidth)
 };
 

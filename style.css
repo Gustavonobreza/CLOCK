@@ -33,16 +33,16 @@ body {
 .time {
   position: relative;
   text-align: center;
-  padding: 100px 0 110px 0;
+  padding: 120px 0 150px 0;
   /* padding: up right bottonm left */
 }
 
 .sec,
 .min,
 .hor {
-  max-width: calc((360px/ 100)*100%);
+  max-width: 360px;
 
-  line-height: 105px;
+  line-height: 10rem;
   font-size: 15rem;
   color: #fff;
 
@@ -56,28 +56,28 @@ body {
 
 
 .day {
-  line-height: 105px;
-  font-size: 10rem;
+  line-height: 9.5rem;
+  font-size: 9rem;
   color: rgb(255, 252, 72);
 
   align-items: center;
   text-align: center;
 
 }
-@media screen and (max-width: 480px) {
-  .time {
-    position: relative;
-    /* text-align: center; */
-    /* padding: 100px 0 110px 0;             ? */
-    /* padding: up right bottonm left */
-  }
-  .sec,
-  .min,
-  .hor {
-    width: 75px;
-    font-size: 80px;
-  }
-  .day{
-    font-size: 50px;
-  }
+  @media screen and (max-width: 480px) {
+    .time {
+      position: relative;
+      /* text-align: center; */
+      padding: 100px 0 80px 0;
+      /* padding: up right bottonm left */
+    }
+    .sec,
+    .min,
+    .hor {
+      width: 75px;
+      font-size: 80px;
+    }
+    .day{
+      font-size: 50px;
+    }
 }
