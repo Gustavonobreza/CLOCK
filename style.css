@@ -64,6 +64,20 @@ body {
   text-align: center;
 
 }
-@media screen and (max-width: 600px) {
-	
+@media screen and (max-width: 480px) {
+  .time {
+    position: relative;
+    /* text-align: center; */
+    /* padding: 100px 0 110px 0;             ? */
+    /* padding: up right bottonm left */
+  }
+  .sec,
+  .min,
+  .hor {
+    width: 75px;
+    font-size: 80px;
+  }
+  .day{
+    font-size: 50px;
+  }
 }
